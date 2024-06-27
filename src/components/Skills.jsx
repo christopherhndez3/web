@@ -9,9 +9,9 @@ const Skills = () => {
       <ul>
         <li>Backend Development</li>
         <li>Ethical Hacking</li>
-        <li>Node.js</li>
-        <li>Python</li>
-        <li>Database Management</li>
+        <li>Smart Contracts</li>
+        <li>Web3</li>
+        <li>Blockchain</li>
         <li>Cybersecurity</li>
       </ul>
     </section>
