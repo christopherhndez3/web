@@ -49,7 +49,7 @@ const ContactForm = () => {
       exit={{ opacity: 0 }}
       className="contact-form-container"
     >
-      <h2>Contact Me</h2>
+      <h2>Contact Me. </h2>
       <form onSubmit={handleSubmit} className="contact-form">
         <label>
           Email:
