@@ -21,7 +21,7 @@ const About = () => {
   return (
     <section id="about">
       <video id="background-video" autoPlay loop muted>
-        <source src="web/src/assets/background.mp4" type="video/mp4" />
+      <source src="%PUBLIC_URL%/background.mp4" type="video/mp4"/>
       </video>
       <div className="content">
         <h2>Christopher Hernandez </h2>
