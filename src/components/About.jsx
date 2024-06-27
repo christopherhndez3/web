@@ -24,7 +24,7 @@ const About = () => {
         <source src="web/src/assets/background.mp4" type="video/mp4" />
       </video>
       <div className="content">
-        <h2>Christopher Hernandez</h2>
+        <h2>Christopher Hernandez </h2>
         <p ref={textRef}></p>
       </div>
     </section>
