@@ -1,6 +1,7 @@
 // src/components/About.jsx
 import React, { useEffect, useRef } from 'react';
 import './About.css';
+import background from '../assets/background.mp4';
 
 const About = () => {
   const textRef = useRef(null);
@@ -21,7 +22,7 @@ const About = () => {
   return (
     <section id="about">
       <video id="background-video" autoPlay loop muted>
-      <source src="%PUBLIC_URL%/background.mp4" type="video/mp4"/>
+      <source src={background} alt="video" type="video/mp4"/>
       </video>
       <div className="content">
         <h2>Christopher Hernandez </h2>
