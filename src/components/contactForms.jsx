@@ -56,15 +56,15 @@ const ContactForm = () => {
           <input type="email" name="email" value={formData.email} onChange={handleChange} required />
         </label>
         <label>
-          Nombre:
+          Name:
           <input type="text" name="name" value={formData.name} onChange={handleChange} required />
         </label>
         <label>
-          Teléfono:
+          Phone:
           <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required />
         </label>
         <label>
-          Mensaje:
+          Message:
           <textarea name="message" value={formData.message} onChange={handleChange} required />
         </label>
         <motion.button
